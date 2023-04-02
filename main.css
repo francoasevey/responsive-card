@@ -40,3 +40,20 @@ body{
     overflow: hidden;
     border: 5px solid #fff;
 }
+.card:hover{
+    transform: rotateY(180deg);
+}
+.card-body .bg{
+    position: absolute;
+    background: #fff;
+    border-radius: 100px;
+    width: 200%;
+    transition: .5s;
+}
+.card-body .bg:nth-child(1){
+    height: 25%;
+    transform-origin: left;
+    top: 0;
+    left: -30%;
+    transform: rotate(-10deg);
+}
