@@ -47,7 +47,7 @@ body{
     position: absolute;
     background: #fff;
     border-radius: 100px;
-    width: 200%;
+    width: 0%;
     transition: .5s;
 }
 .card-body .bg:nth-child(1){
@@ -73,11 +73,11 @@ body{
 }
 .card:hover .card-body .bg{
     width: 200%;
-    transition-delay: 1.5s;
+    transition-delay: 1s;
 }
 .card:hover .card-body .bg:nth-child(2){
     transition-delay: 1.5s;
 }
-.card:hover .card-body .bg:nth-child(2){
+.card:hover .card-body .bg:nth-child(3){
     transition-delay: 2s;
 }
