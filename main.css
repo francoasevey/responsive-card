@@ -83,8 +83,14 @@ body{
 }
 .content{
     position: relative;
+    opacity: 0;
     transition: 5s;
-    padding: 40px, 10%;
+    padding: 40px, 10px;
     text-align: center;
 }
-
+.title{
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #292929;
+    text-transform: uppercase;
+}
