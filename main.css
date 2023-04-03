@@ -94,3 +94,7 @@ body{
     color: #292929;
     text-transform: uppercase;
 }
+.card:hover .content{
+    opacity: 1;
+    transition-delay: 2.5s;
+}
