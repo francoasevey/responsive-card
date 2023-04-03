@@ -81,3 +81,10 @@ body{
 .card:hover .card-body .bg:nth-child(3){
     transition-delay: 2s;
 }
+.content{
+    position: relative;
+    transition: 5s;
+    padding: 40px, 10%;
+    text-align: center;
+}
+
