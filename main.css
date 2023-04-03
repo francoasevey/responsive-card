@@ -57,3 +57,17 @@ body{
     left: -30%;
     transform: rotate(-10deg);
 }
+.card-body .bg:nth-child(2){
+    height: 50%;
+    transform-origin: right;
+    top: 5%;
+    left: -30%;
+    transform: rotate(-10deg);
+}
+.card-body .bg:nth-child(3){
+    height: 50%;
+    transform-origin: left;
+    top: 70%;
+    left: -30%;
+    transform: rotate(-10deg);
+}
